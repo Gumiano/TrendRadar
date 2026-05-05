@@ -1,0 +1,38 @@
+# ============================================
+# TrendRadar .gitignore
+# ============================================
+
+# --- Generated output & data ---
+output/
+index.html
+downloads/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Database files ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Environment & secrets ---
+.env
+.env.*
+docker/.env
+
+# --- Backup & temp files ---
+*.bkp
+*.swp
+*.swo
+*~
+
+# --- IDE & editor ---
+.vscode/
+.idea/
+*.iml
+
+# --- Claude & planning tools ---
+.claude/
+.planning/
